@@ -57,18 +57,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-							media : {word : 'Tyron, Malik, Terrell, Jazmin, Tiara, Shanice'}, 
+							media : {word : 'ADHD, Bipolar, Anxiety, Depression, Alcoholism'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-                    {word: 'Tyron'},
-					{word: 'Malik'},
-					{word: 'Terrell'},
-					{word: 'Jazmin'},
-					{word: 'Tiara'},
-					{word: 'Shanice'}
+                    {word: 'ADHD'},
+					{word: 'Bipolar'},
+					{word: 'Anxiety'},
+					{word: 'Depression'},
+					{word: 'Alcoholism'},
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -80,18 +79,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Jake, Connor, Bradley, Alison,Emma, Emily'}, 
+							media : {word : 'Acne, COVID-19, Diabetes, Obesity, Asthma'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-                    {word: 'Jake'},
-					{word: 'Connor'},
-					{word: 'Bradley'},
-					{word: 'Allison'},
-					{word: 'Emma'},
-					{word: 'Emily'}
+                    {word: 'Acne'},
+					{word: 'COVID-19'},
+					{word: 'Diabetes'},
+					{word: 'Obesity'},
+					{word: 'Asthma'},
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
@@ -99,44 +97,46 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			],
 		attribute1 : 
 			{
-				name : 'Pleasant', 
+				name : 'Good', 
 				title : {
-					media : {word : 'Pleasant'}, 
+					media : {word : 'Good'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Joy, Love, Happy, Good'}, 
+						media : {word : 'Wonderful, Nice, Kind, Right, Pleasant'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Joy'}, 
-					{word : 'Love'}, 
-					{word : 'Happy'}, 
-					{word : 'Good'}
+					{word : 'Wonderful'}, 
+					{word : 'Nice'}, 
+					{word : 'Kind'}, 
+					{word : 'Right'}, 
+					{word : 'Pleasant'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'Unpleasant', 
+				name : 'Bad', 
 				title : {
-					media : {word : 'Unpleasant'}, 
+					media : {word : 'Bad'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						media : {word : 'Evil, Dangerous, Violent, Worthless, Pity'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word : 'Horrible'}, 
-					{word : 'Nasty'}, 
-					{word : 'Bad'}, 
-					{word : 'Evil'}
+					{word : 'Evil'}, 
+					{word : 'Dangerous'}, 
+					{word : 'Violent'}, 
+					{word : 'Worthless'}, 
+					{word : 'Pity'}
 				], 
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
