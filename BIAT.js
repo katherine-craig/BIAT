@@ -50,53 +50,97 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			},
 			categories : [  //As many categories you need.
 				{
-					name : 'Black People', //Will appear in the data.
+					name : 'Mental Illness', //Will appear in the data.
 					title : {
-						media : {word : 'Black People'}, //Name of the category presented in the task.
+						media : {word : 'Mental Illness'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
 						//If you're using a startStimulus, set here. If not, set the parameter showStimuliWithInst to false (see later below)
-						media : {image : 'blacks.jpg'}, 
+							media : {word : 'Tyron, Malik, Terrell, Jazmin, Tiara, Shanice'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'black1.jpg'}, 
-        			{image : 'black2.jpg'}, 
-        			{image : 'black3.jpg'}, 
-        			{image : 'black4.jpg'}, 
-        			{image : 'black5.jpg'}, 
-        			{image : 'black6.jpg'}
+                    {word: 'Tyron'},
+					{word: 'Malik'},
+					{word: 'Terrell'},
+					{word: 'Jazmin'},
+					{word: 'Tiara'},
+					{word: 'Shanice'}
 					], 
 					//Stimulus css (style of the stimuli)
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'Physical Illness', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'Physical Illness'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {image : 'whites.jpg'},  
+							media : {word : 'Jake, Connor, Bradley, Alison,Emma, Emily'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
 					}, 
 					stimulusMedia : [ //Stimuli content as PIP's media objects
-					{image : 'yf1.jpg'}, 
-        			{image : 'yf4.jpg'}, 
-        			{image : 'yf5.jpg'}, 
-        			{image : 'ym2.jpg'}, 
-        			{image : 'ym3.jpg'}, 
-        			{image : 'ym5.jpg'}
+                    {word: 'Jake'},
+					{word: 'Connor'},
+					{word: 'Bradley'},
+					{word: 'Allison'},
+					{word: 'Emma'},
+					{word: 'Emily'}
 					], 
 					//Stimulus css
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				}
 			],
+		attribute1 : 
+			{
+				name : 'Pleasant', 
+				title : {
+					media : {word : 'Pleasant'}, 
+					css : {color:'#0000FF','font-size':'1.8em'}, 
+					height : 4,
+					startStimulus : {
+						media : {word : 'Joy, Love, Happy, Good'}, 
+						css : {color:'#0000FF','font-size':'1em'}, 
+						height : 2
+					}
+				}, 
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Joy'}, 
+					{word : 'Love'}, 
+					{word : 'Happy'}, 
+					{word : 'Good'}
+				], 
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2em'}
+			},	
+			attribute2 : 
+			{
+				name : 'Unpleasant', 
+				title : {
+					media : {word : 'Unpleasant'}, 
+					css : {color:'#0000FF','font-size':'1.8em'}, 
+					height : 4,
+					startStimulus : {
+						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						css : {color:'#0000FF','font-size':'1em'}, 
+						height : 2
+					}
+				}, 
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word : 'Horrible'}, 
+					{word : 'Nasty'}, 
+					{word : 'Bad'}, 
+					{word : 'Evil'}
+				], 
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2em'} 
+			},
 			base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
 				
